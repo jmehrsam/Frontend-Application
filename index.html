@@ -22,7 +22,8 @@
                         <nav>
                             <ul id="nav-menu-container">
                                 <li><a href="./index.html">Numbersapi</a></li>
-                                <li><a href="https://dmginc.gg/devops-support/bug-reports/" id="redirect" target="_blank">Bug Reports</a></li>
+                                <li><a href="https://dmginc.gg/devops-support/bug-reports/" id="redirect"
+                                        target="_blank">Bug Reports</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -38,12 +39,34 @@
                         <option id="date"> date </option>
                         <option id="year"> year </option>
                     </select>
-                    <input type="text" name="number" id="selectNumber">
-                    <button id="submit">Dew it</button>
+                    <input type="number" name="number" id="selectNumber">
+                    <button id="submit">Submit</button>
                 </div>
             </div>
             <div class="flex">
                 <label id="output"></label>
+            </div>
+            <div>
+                <button class="accordion">Purpose & How-to</button>
+                <div class="panel">
+                    <p>
+                        <h3>Purpose</h3>
+                        This website was designed with HTML, CSS and JS for the DI Frontend Application <br>
+                       Its goal is to create a website that takes userinput, call the number API and then display the returned text<br>
+                       The userinput is comprised of following data:
+                       <ul>
+                           <li>type</li>
+                           <li>number</li>
+                       </ul> <br>
+                       <h3>How-to</h3>
+                       <ol>
+                           <li>Select a type from the dropdown (trivia is default)</li>
+                           <li>Type a number</li>
+                           <li>Click submit</li>
+                           <li>Read the output</li>
+                       </ol>
+                    </p>
+                </div>
             </div>
         </main>
     </div>

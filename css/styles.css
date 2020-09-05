@@ -79,5 +79,28 @@ label{
     text-align: center;
     color: #eee;
     max-width: 960px;
-    display: inline;
+    margin-bottom: 20px;
 }
+.accordion {
+    background-color: rgba(27,27,31,0.9);
+    color: #eee;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 1em;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #707070;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #999999;
+    display: none;
+    overflow: hidden;
+  }
