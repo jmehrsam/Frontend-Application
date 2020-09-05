@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/styles.css" rel="Stylesheet" type="text/css" />
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="../index.html"><img src="../img/light-red-banner.png" alt="Damage Inc Logo"></a>
+        </div>
+        <header>
+            <div class="navcontainer">
+                <div id="header">
+                    <div class="flex">
+
+                        <nav>
+                            <ul id="nav-menu-container">
+                                <li><a href="../index.html">Numbersapi</a></li>
+                                <li><a href="https://dmginc.gg/devops-support/bug-reports/" id="redirect" target="_blank">Bug Reports</a></li>
+                                <li><a href="./dom.html">DOM</a></li>
+                                <li><a href="./cors.html">CORS</a></li>
+                                <li><a href="./sop.html">SOP</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="textcontainer">
+                <div class="flex">
+                    <div=>
+                        <h2>CORS = Cross-Origin Resource Sharing</h2>
+                        <p>CORS is a mechanism which gives a web application permission to access resources from a different origin. <br>
+                           This is achieved by using additional HTTP headers. <br>
+                           <h4>Example from MDN:</h4>
+                            "An example of a cross-origin request: the front-end JavaScript code served from https://domain-a.com uses XMLHttpRequest <br>
+                             to make a request for https://domain-b.com/data.json." <br>
+                          Generally browser restrict cross-origion HTTP requests when they are initiated by a script. <br>
+                          This is simply a security measure. <br><br>
+                          <strong>CORS can cause major security risks such as leaking API key, other users data or worse, if configured wrongly.</strong> <br>
+                          <br>Hence, CORS should only be implemented when absolutely neccessary. In addition, SOP is leveraged out by CORS.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
