@@ -75,6 +75,13 @@ nav ul li a:hover{
 .selcontainer{
     margin-bottom: 20px;
 }
+
+#warning {
+    font-size: 2em;
+    color: red;
+    text-align: center;
+}
+
 label{
     text-align: center;
     color: #eee;

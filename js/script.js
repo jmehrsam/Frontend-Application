@@ -7,10 +7,12 @@ $(function () {
         var number = document.getElementById("selectNumber").value
         // Function call to make API request, passing variables
         if (number !== ""){
-            apiCall(number, selType)
+          document.getElementById("warning").innerText = null
+          apiCall(number, selType)
         }
         else{
-            alert("Type a number")
+          var warning = "Warning: Type a number"
+          document.getElementById("warning").innerText = warning
         }
     })
     
